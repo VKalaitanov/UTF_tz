@@ -1,0 +1,222 @@
+[
+    {
+        "model": "main.foodcategory",
+        "pk": 1,
+        "fields": {
+            "name_ru": "Напитки",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 10
+        }
+    },
+    {
+        "model": "main.foodcategory",
+        "pk": 2,
+        "fields": {
+            "name_ru": "Выпечка",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 20
+        }
+    },
+    {
+        "model": "main.foodcategory",
+        "pk": 3,
+        "fields": {
+            "name_ru": "Основные блюда",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 30
+        }
+    },
+    {
+        "model": "main.foodcategory",
+        "pk": 4,
+        "fields": {
+            "name_ru": "Десерты",
+            "name_en": null,
+            "name_ch": null,
+            "order_id": 40
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 1,
+            "internal_code": 100,
+            "name_ru": "Чай",
+            "description_ru": "Чай 100 гр",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": [2]
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 2,
+        "fields": {
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 2,
+            "internal_code": 200,
+            "name_ru": "Кола",
+            "description_ru": "Кола",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 3,
+        "fields": {
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 3,
+            "internal_code": 300,
+            "name_ru": "Спрайт",
+            "description_ru": "Спрайт",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 4,
+        "fields": {
+            "category": 1,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 4,
+            "internal_code": 400,
+            "name_ru": "Байкал",
+            "description_ru": "Байкал",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "123.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 5,
+        "fields": {
+            "category": 2,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 5,
+            "internal_code": 500,
+            "name_ru": "Круассан",
+            "description_ru": "Круассан с шоколадом",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "150.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 6,
+        "fields": {
+            "category": 2,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 6,
+            "internal_code": 600,
+            "name_ru": "Пончик",
+            "description_ru": "Пончик с сахарной пудрой",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "100.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 7,
+        "fields": {
+            "category": 3,
+            "is_vegan": true,
+            "is_special": false,
+            "code": 7,
+            "internal_code": 700,
+            "name_ru": "Вегетарианский бургер",
+            "description_ru": "Бургер с овощами и соевым мясом",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "250.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 8,
+        "fields": {
+            "category": 3,
+            "is_vegan": false,
+            "is_special": true,
+            "code": 8,
+            "internal_code": 800,
+            "name_ru": "Стейк",
+            "description_ru": "Стейк из говядины с гарниром",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "500.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 9,
+        "fields": {
+            "category": 4,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 9,
+            "internal_code": 900,
+            "name_ru": "Торт",
+            "description_ru": "Шоколадный торт",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "300.00",
+            "is_publish": true,
+            "additional": []
+        }
+    },
+    {
+        "model": "main.food",
+        "pk": 10,
+        "fields": {
+            "category": 4,
+            "is_vegan": false,
+            "is_special": false,
+            "code": 10,
+            "internal_code": 1000,
+            "name_ru": "Мороженое",
+            "description_ru": "Ванильное мороженое",
+            "description_en": null,
+            "description_ch": null,
+            "cost": "120.00",
+            "is_publish": true,
+            "additional": []
+        }
+    }
+]
