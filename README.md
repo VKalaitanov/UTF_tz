@@ -1,19 +1,19 @@
 <h3>Инструкция для запуска проекта:</h3>
- - git clone https://github.com/VKalaitanov/UTF_tz.git
- - cd UTF_tz
- - pip install -r requirementx.txt
- - В корневую папку проекта добавляете файл ".env"
+ <p>- git clone https://github.com/VKalaitanov/UTF_tz.git</p>
+ <p>- cd UTF_tz</p>
+ <p>- pip install -r requirementx.txt</p>
+ <p>- В корневую папку проекта добавляете файл ".env"</p>
  
 <h3>В файле ".env": </h3>
-SECRET_KEY='<секретный ключ>'
-DEBUG=1
-ALLOWED_HOSTS='<ваши хосты >'
+<p>SECRET_KEY='<секретный ключ>'</p>
+<p>DEBUG=1</p>
+<p>ALLOWED_HOSTS='<ваши хосты >'</p>
 
 <h3>Создаем миграции:</h3>
- - python manage.py makemigrations
- - python manage.py migrate
+ <p>- python manage.py makemigrations</p>
+ <p>- python manage.py migrate</p>
 
 <h3>Запуск проекта</h3>
- - python3 manage.py runserver
+ <p>- python3 manage.py runserver</p>
 
 
